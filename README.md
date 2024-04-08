@@ -118,6 +118,7 @@ Estructura que tenia al inicio:
 
 
 En el archivo [Limpieza de Datos Challenge](./base_de_datos/S14_24_Dataset_Challenge_Limpieza_y_Normalizado.ipynb) se puede ver todo el proceso de extracción y limpieza de este dataset.
+O bien en el cuaderno virtual de Google Colab a continuación: [Limpieza de Dataset Challenge](https://colab.research.google.com/drive/1sKhEWzbkkvxeY-fy5MTZJ74Of6aM-9Sd?usp=sharing)
 
 <h4>🚩 Dataset Ministerio de Energia:</h4>
 
