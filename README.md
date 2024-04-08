@@ -117,7 +117,7 @@ Estructura que tenia al inicio:
 
 
 
-En el archivo [Limpieza de Datos Challenge](./base_de_datos/Limpieza%20del%20Dataset.ipynb) se puede ver todo el proceso de extracción y limpieza de este dataset.
+En el archivo [Limpieza de Datos Challenge](./base_de_datos/S14_24_Dataset_Challenge_Limpieza_y_Normalizado.ipynb) se puede ver todo el proceso de extracción y limpieza de este dataset.
 
 <h4>🚩 Dataset Ministerio de Energia:</h4>
 
