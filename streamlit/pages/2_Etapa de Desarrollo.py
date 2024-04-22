@@ -19,20 +19,24 @@ st.title("ETL")
 
 
 st.subheader('Extracción inicial de datos:')
-texto = """Se obtienen los datos del Ministerio de Energia de Argentina para los precios de combustibles , el cual se usó para entrenar el modelo predictivo. Tambien se usó la data del Challenge , el cual se basa en los datos del ministerio, y que sirvió de insumo para el dashboard:
+texto = """Se obtienen los datos del Ministerio de Energia de la República Argentina para los precios de combustibles, el cual se usó para entrenar el modelo predictivo. Tambien se usó la data del Challenge, el cual se basa en los datos del ministerio y que sirvió de insumo para el dashboard:
         """
 st.write(texto)
 
 with st.expander('Datos sin procesar Ministero de Energia de Argentina'):
-    df = pd.read_csv("../base_de_datos/archivos_csv/precios-historicos-argentina-2001-2024.csv")
-    st.write(df)
-
-with st.expander('Datos sin procesar Challenge'):
     df = pd.read_csv("../base_de_datos/archivos_csv/Datos Challenge sucios.csv")
     st.write(df)
     
 st.subheader('Transformación de los datos:')
-texto ="""Creación de tablas y relaciones:
+
+st.subheader('## Limpieza de datos:')
+texto = """Se realizó la revisión y limpieza de los dataset segun se muestra en el link siguiente:
+"""
+st.write(texto)
+st.markdown("[S14_24_Dataset_Challenge_Limpieza_y_Normalizado.ipynb](https://colab.research.google.com/drive/1sKhEWzbkkvxeY-fy5MTZJ74Of6aM-9Sd?usp=sharing)")
+
+st.subheader('## Creación de tablas y relaciones:')
+texto ="""
     Mediante cambios en la estructura de los datos, se definieron distintas tablas en las que dividimos los registros, para su escalabilidad.
     De esta manera la base de datos no solo es más eficiente y optimiza el rendimiento, sino que permite hacer análisis más detallados de algunos puntos importantes, como las ventas por productos."""
 st.write(texto)
@@ -58,11 +62,11 @@ texto ="""Tablas de precio histórico del dolar en Argentina:
     Creadas a partir de la investigación de la cotización del dolar en el periodo del análisis."""
 st.write(texto)
 
-with st.expander('Valor dolar oficial/Normalizado'):
+with st.expander('Valor dolar oficial'):
     df = pd.read_csv("../base_de_datos/archivos_csv/valor_dolar_oficial_normalizado.csv")
     st.write(df)
 
-with st.expander('Valor dolar blue/Normalizado'):
+with st.expander('Valor dolar blue'):
     df = pd.read_csv("../base_de_datos/archivos_csv/dolar_blue_normalizado.csv")
     st.write(df)
 
