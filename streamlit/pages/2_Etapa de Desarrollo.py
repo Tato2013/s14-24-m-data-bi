@@ -42,7 +42,7 @@ texto ="""
 st.write(texto)
 
 with st.expander('Precio'):
-    df = pd.read_csv("../base_de_datos/archivos_csv/precios-historicos-argentina-2001-2024.csv")
+    df = pd.read_csv("../base_de_datos/archivos_csv/primeros_1000_registros.csv")
     st.write(df)
     
 with st.expander('Empresas'):
