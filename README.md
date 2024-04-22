@@ -1,4 +1,4 @@
-<img src="./media_readme/banner.png" width='100%'>
+<img src="./media_readme/header.png" width='100%'>
 
 <h3><b>¡Bienvenid@s al repositorio del grupo 24 del seleccionado 14 de No Country! </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h3>
 <br>
