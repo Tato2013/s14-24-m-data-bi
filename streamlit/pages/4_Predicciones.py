@@ -10,9 +10,9 @@ import matplotlib.pyplot as plt
 
 st.title("Predicciones")
 
-
+st.write("## En Construcción:")
 
 st.write("Oráculo de Octanus")
-img = Image.open("../s14-24-m-data-bi\Media\oraculo.jpeg")
+img = Image.open("../streamlit/Media/oraculo.jpeg")
 imagen = img.resize((800, 400))
 st.image(imagen)  
